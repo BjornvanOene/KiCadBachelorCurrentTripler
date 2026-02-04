@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "eaeaab39-7712-4bb8-8f1a-3ddca096a313")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 115.57 86.36)
+		(size 55.88 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e39cac19-8597-4e40-9e6f-88d9f4803cf9")
+		(property "Sheetname" "CurrentTriplerMainCircuit"
+			(at 115.57 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "01_MainCircuitry.kicad_sch"
+			(at 115.57 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BachelorCurrentTripler"
+				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
