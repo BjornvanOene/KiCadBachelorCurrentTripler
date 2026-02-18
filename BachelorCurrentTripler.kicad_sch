@@ -6,7 +6,49 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 115.57 86.36)
+		(at 133.35 36.83)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "599aab1d-92e3-47b4-80e6-e5f9d8661647")
+		(property "Sheetname" "PhaseA"
+			(at 133.35 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PhaseA.kicad_sch"
+			(at 133.35 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BachelorCurrentTripler"
+				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 66.04)
 		(size 55.88 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +64,7 @@
 		)
 		(uuid "e39cac19-8597-4e40-9e6f-88d9f4803cf9")
 		(property "Sheetname" "CurrentTriplerMainCircuit"
-			(at 115.57 85.6484 0)
+			(at 40.64 65.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "01_MainCircuitry.kicad_sch"
-			(at 115.57 118.6946 0)
+			(at 40.64 98.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)

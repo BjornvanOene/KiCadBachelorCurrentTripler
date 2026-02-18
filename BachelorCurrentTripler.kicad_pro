@@ -430,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -617,6 +617,10 @@
     [
       "e39cac19-8597-4e40-9e6f-88d9f4803cf9",
       "CurrentTriplerMainCircuit"
+    ],
+    [
+      "599aab1d-92e3-47b4-80e6-e5f9d8661647",
+      "PhaseA"
     ]
   ],
   "text_variables": {}
