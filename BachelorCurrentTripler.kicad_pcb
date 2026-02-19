@@ -6567,7 +6567,7 @@
 			(remove_unused_layers no)
 			(net 14 "/Transformer/SecondaryB")
 			(pintype "passive")
-			(uuid "23e35c9f-b31c-40d2-8751-b020de4db213")
+			(uuid "ce3f95d0-94d0-4322-96ef-8c9fa78c21f1")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Transformer_THT.3dshapes/Transformer_NF_ETAL_1-1_P1200.step"
@@ -11899,7 +11899,7 @@
 			(remove_unused_layers no)
 			(net 13 "/Transformer/SecondaryA")
 			(pintype "passive")
-			(uuid "0d0bdbb6-eaea-44a9-aac0-cfe9e1420fdd")
+			(uuid "ed7803ae-e270-49f7-81ed-4c92299dfce1")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Transformer_THT.3dshapes/Transformer_NF_ETAL_1-1_P1200.step"
@@ -13411,7 +13411,7 @@
 			(remove_unused_layers no)
 			(net 15 "/Transformer/SecondaryC")
 			(pintype "passive")
-			(uuid "255500f0-1646-4204-bc2b-7526037f1fae")
+			(uuid "74795bb5-9e7c-4d17-8441-934b1959c902")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Transformer_THT.3dshapes/Transformer_NF_ETAL_1-1_P1200.step"
@@ -15523,6 +15523,61 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_circle
+		(center 207 63.5)
+		(end 212 63.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "10b7b338-fb31-486e-b6a9-9dad6f4336e4")
+	)
+	(gr_circle
+		(center 94.5 145.5)
+		(end 99.5 145.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "251cde6c-25f6-4b77-9492-f575697d2863")
+	)
+	(gr_rect
+		(start 84.836 55.88)
+		(end 217.17 155.194)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "63a9f514-f6f8-4efb-a4f3-906b42022c5d")
+	)
+	(gr_circle
+		(center 205.5 147)
+		(end 210.5 147)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "96b67ca4-d1a8-4e50-b2f9-85034dd35ee9")
+	)
+	(gr_circle
+		(center 95 64.5)
+		(end 100 64.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "fc5e7d08-bcb0-4757-9071-e2ae317e74fa")
 	)
 	(segment
 		(start 188.976 98.044)
