@@ -1273,6 +1273,12 @@
 		(uuid "4eb93a89-917d-401b-8aaf-82319aad42a9")
 	)
 	(junction
+		(at 106.68 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "232800b6-650d-4bd8-814e-36e6cc96d48b")
+	)
+	(junction
 		(at 187.96 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1301,6 +1307,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7648b066-99eb-41e5-9bc0-a74e0f4b576a")
+	)
+	(junction
+		(at 87.63 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad0535ae-c7e5-47e5-8d0e-9f696ae4466a")
 	)
 	(junction
 		(at 170.18 72.39)
@@ -1338,6 +1350,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 104.14) (xy 116.84 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0941a74c-11b9-4500-9372-9e2d7098e793")
+	)
+	(wire
+		(pts
 			(xy 111.76 111.76) (xy 111.76 118.11)
 		)
 		(stroke
@@ -1348,13 +1370,33 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 104.14) (xy 116.84 104.14)
+			(xy 102.87 67.31) (xy 106.68 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ed14566-c16d-4ace-9c49-47a9ec28f9c3")
+	)
+	(wire
+		(pts
+			(xy 93.98 119.38) (xy 101.6 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0eea7af5-87b0-47a7-889c-1271561ce71e")
+	)
+	(wire
+		(pts
+			(xy 83.82 78.74) (xy 87.63 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1524bbca-e991-4dd5-b0ba-834aa8e4946e")
 	)
 	(wire
 		(pts
@@ -1385,16 +1427,6 @@
 			(type default)
 		)
 		(uuid "277b22ce-2e0c-4b75-9f65-301d8463898a")
-	)
-	(wire
-		(pts
-			(xy 116.84 78.74) (xy 111.76 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "489759f6-4e12-4b4a-ae09-f7dcb0fedfd9")
 	)
 	(wire
 		(pts
@@ -1468,6 +1500,26 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 78.74) (xy 87.63 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75adc86c-ac5b-4c21-af45-250f333c4440")
+	)
+	(wire
+		(pts
+			(xy 87.63 67.31) (xy 93.98 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e237223-6f96-4803-8930-6e518ca788b7")
+	)
+	(wire
+		(pts
 			(xy 179.07 80.01) (xy 187.96 80.01)
 		)
 		(stroke
@@ -1478,13 +1530,23 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 78.74) (xy 111.76 71.12)
+			(xy 63.5 96.52) (xy 116.84 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8edd9420-a639-45c2-a8a2-b1d6ef5a17a1")
+		(uuid "810a4176-56f7-4ec1-85b0-ef624427dd8d")
+	)
+	(wire
+		(pts
+			(xy 101.6 119.38) (xy 101.6 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "817df21b-f63d-4aea-a507-38f37fd97d40")
 	)
 	(wire
 		(pts
@@ -1498,6 +1560,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 78.74) (xy 116.84 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "982d1827-ebfc-432c-b8f9-4784e120d201")
+	)
+	(wire
+		(pts
 			(xy 179.07 72.39) (xy 187.96 72.39)
 		)
 		(stroke
@@ -1505,6 +1577,26 @@
 			(type default)
 		)
 		(uuid "9cebceae-df8b-4949-ab85-abd2c5ed3341")
+	)
+	(wire
+		(pts
+			(xy 210.82 95.25) (xy 170.18 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff9f692-0786-44eb-86d2-02780a75408d")
+	)
+	(wire
+		(pts
+			(xy 106.68 67.31) (xy 106.68 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa01757c-d21a-4d87-9124-8a42f34b0e6d")
 	)
 	(wire
 		(pts
@@ -1545,6 +1637,16 @@
 			(type default)
 		)
 		(uuid "b9812461-ee54-40c4-8032-ecfce7b7b276")
+	)
+	(wire
+		(pts
+			(xy 87.63 62.23) (xy 87.63 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd4f9c6-5415-4dc0-9deb-9547fbe7b5cd")
 	)
 	(wire
 		(pts
@@ -1636,25 +1738,68 @@
 		)
 		(uuid "f89179b1-8b39-4abd-a715-5d5298dca546")
 	)
-	(label "CLin"
-		(at 116.84 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
+	(wire
+		(pts
+			(xy 63.5 90.17) (xy 116.84 90.17)
 		)
-		(uuid "353fdec0-0e95-497f-9e51-760d36a8d1b1")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8e78e28-ffe2-4056-a250-cbff24b1df6d")
 	)
-	(label "CHin"
-		(at 116.84 96.52 180)
+	(wire
+		(pts
+			(xy 106.68 78.74) (xy 106.68 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f933ac8a-d840-40c7-97a8-dc306e1dfdb4")
+	)
+	(label "PVCC"
+		(at 83.82 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "e16d2f17-b84f-4de4-afb9-8d2f3be75766")
+		(uuid "52404fcc-09ac-4d44-8c38-24fa1531a31e")
+	)
+	(hierarchical_label "COUT"
+		(shape output)
+		(at 210.82 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5411e5a7-e7a5-4412-95e7-30d3ae59484b")
+	)
+	(hierarchical_label "CLIN"
+		(shape input)
+		(at 63.5 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d14ae230-e572-44bf-b9ce-bb49e74c7ace")
+	)
+	(hierarchical_label "CHIN"
+		(shape input)
+		(at 63.5 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f06b227a-50e3-4bcc-8371-10b9e2dd6ed8")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -1721,6 +1866,72 @@
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0715cbc4-7ef6-473a-8cc4-7fd3f07e4f81")
+		(property "Reference" "#PWR032"
+			(at 93.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "adb095ef-6a3b-4ea3-a027-49763611438d")
+		)
+		(instances
+			(project "BachelorCurrentTripler"
+				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -1871,6 +2082,73 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 87.63 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28e8af9b-8f2f-446f-9808-ea2dbdc118be")
+		(property "Reference" "R19"
+			(at 82.55 58.166 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 85.09 58.166 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 89.408 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 87.63 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b770bd34-44ef-4392-8cad-b081c3794bc7")
+		)
+		(pin "2"
+			(uuid "a95e86c1-3159-4b91-aef6-c351127a3d83")
+		)
+		(instances
+			(project "BachelorCurrentTripler"
+				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 146.05 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2011,6 +2289,75 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 93.98 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d327b25-252b-4f32-a669-0487e58d5781")
+		(property "Reference" "C18"
+			(at 94.742 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 94.742 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 94.9452 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 93.98 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3beac2b2-9f24-410b-9096-63c39ba47604")
+		)
+		(pin "1"
+			(uuid "6f392b1d-4c67-4760-bc2d-509825d30e5e")
+		)
+		(instances
+			(project "BachelorCurrentTripler"
+				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 146.05 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2081,7 +2428,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 100.33 96.52 0)
+		(at 93.98 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2090,7 +2437,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ed339e7-3fb6-4186-9850-513782e27227")
 		(property "Reference" "#PWR017"
-			(at 100.33 100.33 0)
+			(at 93.98 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,7 +2446,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 100.33 91.44 0)
+			(at 93.98 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2107,7 +2454,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 96.52 0)
+			(at 93.98 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2116,7 +2463,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 96.52 0)
+			(at 93.98 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2125,7 +2472,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 100.33 96.52 0)
+			(at 93.98 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2208,6 +2555,72 @@
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8133ba4c-361c-4bc3-8307-88379b83aeb9")
+		(property "Reference" "#PWR033"
+			(at 102.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cceac96a-a1af-424d-b7d7-65fc32da1035")
+		)
+		(instances
+			(project "BachelorCurrentTripler"
+				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2395,7 +2808,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 100.33 100.33 180)
+		(at 93.98 115.57 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2404,7 +2817,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8399d2e-699d-422f-a904-febc7037bd05")
 		(property "Reference" "R12"
-			(at 102.87 99.0599 0)
+			(at 96.52 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2413,7 +2826,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 102.87 101.5999 0)
+			(at 96.52 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2422,7 +2835,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.108 100.33 90)
+			(at 95.758 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,7 +2844,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 100.33 0)
+			(at 93.98 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2440,7 +2853,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 100.33 100.33 0)
+			(at 93.98 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2458,6 +2871,72 @@
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 87.63 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9f2a975-bc8f-4935-8d69-5178b0f8799b")
+		(property "Reference" "#PWR030"
+			(at 87.63 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 87.63 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 87.63 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "515b837a-bfb7-4e63-a249-6f9c378c9556")
+		)
+		(instances
+			(project "BachelorCurrentTripler"
+				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2591,6 +3070,75 @@
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 102.87 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c49acc2b-6fd8-467b-9a71-8b171cf32566")
+		(property "Reference" "C19"
+			(at 103.124 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 103.124 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 103.8352 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 102.87 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "85bc9cfa-5364-4b3e-9819-0371acf3dc63")
+		)
+		(pin "1"
+			(uuid "7a4c664f-fb36-4f3c-8522-b8577e3e3dc3")
+		)
+		(instances
+			(project "BachelorCurrentTripler"
+				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -2862,72 +3410,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 111.76 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d956a99d-8a29-4623-ac19-3ea2f5266bf3")
-		(property "Reference" "#PWR018"
-			(at 111.76 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 111.76 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 111.76 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2cda1af8-45c9-40ca-90ea-bd431f80d4a1")
-		)
-		(instances
-			(project "BachelorCurrentTripler"
-				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 111.76 118.11 0)
 		(unit 1)
@@ -2988,6 +3470,72 @@
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 106.68 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efd3fe1b-3bc6-469a-9d29-7b27a0a18599")
+		(property "Reference" "#PWR031"
+			(at 106.68 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 106.68 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 106.68 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53d6142c-cd1c-431c-82b6-a451c053065b")
+		)
+		(instances
+			(project "BachelorCurrentTripler"
+				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
