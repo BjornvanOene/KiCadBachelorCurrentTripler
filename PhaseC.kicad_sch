@@ -144,37 +144,34 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_NMOS"
+		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
 				(offset 0)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+			(property "Reference" "R"
+				(at 2.032 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Q_NMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "R"
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 5.08 2.54 0)
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -191,7 +188,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-MOSFET transistor"
+			(property "Description" "Resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -200,7 +197,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NMOS N-MOS"
+			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -209,7 +206,142 @@
 					(hide yes)
 				)
 			)
-			(symbol "Q_NMOS_0_1"
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:C2M0025120D"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C2M0025120D"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.wolfspeed.com/media/downloads/161/C2M0025120D.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "90A Id, 1200V Vds, 25mOhm, N-Channel SiC MOSFET, TO-247"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel SiC MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?247*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C2M0025120D_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -353,7 +485,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
 					)
 					(stroke
 						(width 0)
@@ -376,7 +508,7 @@
 					)
 				)
 			)
-			(symbol "Q_NMOS_1_1"
+			(symbol "C2M0025120D_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -387,7 +519,7 @@
 							)
 						)
 					)
-					(number "G"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -405,7 +537,7 @@
 							)
 						)
 					)
-					(number "D"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -423,131 +555,7 @@
 							)
 						)
 					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1580,16 +1588,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 95.25) (xy 170.18 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ff9f692-0786-44eb-86d2-02780a75408d")
-	)
-	(wire
-		(pts
 			(xy 106.68 67.31) (xy 106.68 54.61)
 		)
 		(stroke
@@ -1768,6 +1766,16 @@
 		)
 		(uuid "f933ac8a-d840-40c7-97a8-dc306e1dfdb4")
 	)
+	(wire
+		(pts
+			(xy 170.18 95.25) (xy 210.82 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd3c8b49-aee0-4f27-8d60-4f0823d3efce")
+	)
 	(label "PVCC"
 		(at 83.82 78.74 180)
 		(effects
@@ -1777,6 +1785,16 @@
 			(justify right bottom)
 		)
 		(uuid "52404fcc-09ac-4d44-8c38-24fa1531a31e")
+	)
+	(label "PVCC"
+		(at 142.24 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "edcc65e8-cfab-4324-877a-bfdb8d71115a")
 	)
 	(hierarchical_label "COUT"
 		(shape output)
@@ -1812,6 +1830,82 @@
 		(uuid "f06b227a-50e3-4bcc-8371-10b9e2dd6ed8")
 	)
 	(symbol
+		(lib_id "Transistor_FET:C2M0025120D")
+		(at 167.64 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04246bc0-7dd6-47b6-aefd-5bf2f9596f91")
+		(property "Reference" "Q15"
+			(at 173.99 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C2M0025120D"
+			(at 173.99 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
+			(at 172.72 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.wolfspeed.com/media/downloads/161/C2M0025120D.pdf"
+			(at 172.72 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "90A Id, 1200V Vds, 25mOhm, N-Channel SiC MOSFET, TO-247"
+			(at 167.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "00cfc69e-d61b-4155-b890-98736484ed6f")
+		)
+		(pin "1"
+			(uuid "4179dd01-ae94-4208-a856-7fc43000b8cb")
+		)
+		(pin "3"
+			(uuid "29d0d332-6d24-4da2-8284-a8d489d30e5c")
+		)
+		(instances
+			(project "BachelorCurrentTripler"
+				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
+					(reference "Q15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 93.98 74.93 0)
 		(unit 1)
@@ -1821,7 +1915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0715cbc4-7ef6-473a-8cc4-7fd3f07e4f81")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR028"
 			(at 93.98 81.28 0)
 			(effects
 				(font
@@ -1871,7 +1965,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
-					(reference "#PWR032")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -1887,7 +1981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "123c51bb-9d71-4bc7-8139-6f3c106a9d4c")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR030"
 			(at 204.47 87.63 0)
 			(effects
 				(font
@@ -1937,80 +2031,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NMOS")
-		(at 167.64 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22f3459a-ec0b-4192-bcfb-2ed14e68fdf8")
-		(property "Reference" "Q12"
-			(at 173.99 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS"
-			(at 173.99 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor"
-			(at 167.64 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S"
-			(uuid "8775abf6-91b4-4942-bc2a-5e047f17b34f")
-		)
-		(pin "D"
-			(uuid "646b10f7-0a3c-4a70-aeca-27ff9cddef51")
-		)
-		(pin "G"
-			(uuid "cf5c4a06-e38f-40bc-a857-47753ff4a5ec")
-		)
-		(instances
-			(project "BachelorCurrentTripler"
-				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
-					(reference "Q12")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2025,7 +2046,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28e8af9b-8f2f-446f-9808-ea2dbdc118be")
-		(property "Reference" "R19"
+		(property "Reference" "R14"
 			(at 82.55 58.166 90)
 			(effects
 				(font
@@ -2041,7 +2062,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 89.408 58.42 90)
 			(effects
 				(font
@@ -2077,7 +2098,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
-					(reference "R19")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -2092,7 +2113,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3377cfb4-65cc-4a53-9c7b-dfaad2351277")
-		(property "Reference" "R13"
+		(property "Reference" "R15"
 			(at 146.304 81.28 90)
 			(effects
 				(font
@@ -2108,7 +2129,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 146.05 88.138 90)
 			(effects
 				(font
@@ -2144,80 +2165,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NMOS")
-		(at 167.64 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44ee4616-bff6-423c-8643-9368f22c87f8")
-		(property "Reference" "Q11"
-			(at 173.99 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS"
-			(at 173.99 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor"
-			(at 167.64 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S"
-			(uuid "349ff188-b4c4-49a0-bb4d-6c81819ac1f7")
-		)
-		(pin "D"
-			(uuid "0ab26745-4706-4bb2-8cb0-0b347b060801")
-		)
-		(pin "G"
-			(uuid "cc846110-1d79-42d8-8568-55e7a0960ace")
-		)
-		(instances
-			(project "BachelorCurrentTripler"
-				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
-					(reference "Q11")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -2232,7 +2180,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d327b25-252b-4f32-a669-0487e58d5781")
-		(property "Reference" "C18"
+		(property "Reference" "C14"
 			(at 94.742 65.532 0)
 			(effects
 				(font
@@ -2250,7 +2198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
 			(at 94.9452 74.93 0)
 			(effects
 				(font
@@ -2286,7 +2234,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
-					(reference "C18")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -2302,7 +2250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e017d3f-80e3-4c1e-bef1-8d38e6442349")
-		(property "Reference" "C10"
+		(property "Reference" "C16"
 			(at 149.86 74.9299 0)
 			(effects
 				(font
@@ -2320,7 +2268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 147.0152 80.01 0)
 			(effects
 				(font
@@ -2356,7 +2304,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
-					(reference "C10")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -2372,7 +2320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ed339e7-3fb6-4186-9850-513782e27227")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR031"
 			(at 93.98 115.57 0)
 			(effects
 				(font
@@ -2422,7 +2370,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
-					(reference "#PWR017")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -2436,10 +2384,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7d88993b-0a8f-4733-9474-4f01985af6c4")
-		(property "Reference" "R14"
-			(at 146.05 100.33 90)
+		(property "Reference" "R17"
+			(at 150.368 102.616 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2447,14 +2394,14 @@
 			)
 		)
 		(property "Value" "R"
-			(at 146.05 102.87 90)
+			(at 150.368 105.156 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 146.05 108.458 90)
 			(effects
 				(font
@@ -2490,7 +2437,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
-					(reference "R14")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -2506,7 +2453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8133ba4c-361c-4bc3-8307-88379b83aeb9")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR029"
 			(at 102.87 81.28 0)
 			(effects
 				(font
@@ -2556,7 +2503,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
-					(reference "#PWR033")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -2572,7 +2519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89c33a85-6f39-484f-bb16-366c86e290c6")
-		(property "Reference" "C11"
+		(property "Reference" "C17"
 			(at 182.88 74.9299 0)
 			(effects
 				(font
@@ -2590,7 +2537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
 			(at 180.0352 80.01 0)
 			(effects
 				(font
@@ -2626,7 +2573,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
-					(reference "C11")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -2743,6 +2690,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:C2M0025120D")
+		(at 167.64 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90468e80-7887-4f00-852b-2b117d43356a")
+		(property "Reference" "Q16"
+			(at 173.99 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C2M0025120D"
+			(at 173.99 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
+			(at 172.72 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.wolfspeed.com/media/downloads/161/C2M0025120D.pdf"
+			(at 172.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "90A Id, 1200V Vds, 25mOhm, N-Channel SiC MOSFET, TO-247"
+			(at 167.64 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a1e948b-dd4c-45a6-9a5b-62fd1d4227f9")
+		)
+		(pin "1"
+			(uuid "64687c11-6c43-4b25-8d13-895b8f580d09")
+		)
+		(pin "3"
+			(uuid "b33c9938-3a3d-410c-b738-90ca48fc5a60")
+		)
+		(instances
+			(project "BachelorCurrentTripler"
+				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
+					(reference "Q16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 93.98 115.57 180)
 		(unit 1)
@@ -2752,7 +2775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8399d2e-699d-422f-a904-febc7037bd05")
-		(property "Reference" "R12"
+		(property "Reference" "R19"
 			(at 96.52 114.2999 0)
 			(effects
 				(font
@@ -2770,7 +2793,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1812_4532Metric"
 			(at 95.758 115.57 90)
 			(effects
 				(font
@@ -2806,7 +2829,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
-					(reference "R12")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -2822,7 +2845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9f2a975-bc8f-4935-8d69-5178b0f8799b")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR025"
 			(at 87.63 58.42 0)
 			(effects
 				(font
@@ -2872,7 +2895,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
-					(reference "#PWR030")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -2888,7 +2911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf36adde-e13b-40b6-94a4-163e56931992")
-		(property "Reference" "C12"
+		(property "Reference" "C18"
 			(at 193.04 74.9299 0)
 			(effects
 				(font
@@ -2906,7 +2929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x7.7"
 			(at 190.1952 80.01 0)
 			(effects
 				(font
@@ -2942,7 +2965,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
-					(reference "C12")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -2957,7 +2980,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bfde09ed-43d8-400f-99f1-29dffd041a02")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 151.13 92.456 90)
 			(effects
 				(font
@@ -2973,7 +2996,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 151.13 91.948 90)
 			(effects
 				(font
@@ -3009,7 +3032,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -3024,7 +3047,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c49acc2b-6fd8-467b-9a71-8b171cf32566")
-		(property "Reference" "C19"
+		(property "Reference" "C15"
 			(at 103.124 66.04 0)
 			(effects
 				(font
@@ -3042,7 +3065,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
 			(at 103.8352 74.93 0)
 			(effects
 				(font
@@ -3078,7 +3101,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
-					(reference "C19")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -3094,7 +3117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7a647c9-cb17-4f74-a744-2c6da24d1bf8")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR034"
 			(at 170.18 125.73 0)
 			(effects
 				(font
@@ -3144,7 +3167,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
-					(reference "#PWR022")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -3160,7 +3183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3b6f3ae-a332-4440-bc42-1ec20b243b43")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR033"
 			(at 144.78 125.73 0)
 			(effects
 				(font
@@ -3210,7 +3233,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
-					(reference "#PWR020")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -3226,7 +3249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3f9c6a3-d55a-46d0-a460-446af645b1d8")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR027"
 			(at 170.18 73.66 0)
 			(effects
 				(font
@@ -3276,7 +3299,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
-					(reference "#PWR021")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -3291,7 +3314,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5c8f183-4dcc-47cd-b25f-2fa56b2d10f3")
-		(property "Reference" "R16"
+		(property "Reference" "R18"
 			(at 151.384 113.03 90)
 			(effects
 				(font
@@ -3307,7 +3330,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 151.13 112.268 90)
 			(effects
 				(font
@@ -3343,7 +3366,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
-					(reference "R16")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -3359,7 +3382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcff0b2f-257e-414c-9c20-9169c90c6e0c")
-		(property "Reference" "C13"
+		(property "Reference" "C19"
 			(at 204.47 74.9299 0)
 			(effects
 				(font
@@ -3377,7 +3400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x7.7"
 			(at 201.6252 80.01 0)
 			(effects
 				(font
@@ -3413,7 +3436,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
-					(reference "C13")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -3429,7 +3452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e718d294-1aee-4c50-a624-600394a65849")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR032"
 			(at 111.76 124.46 0)
 			(effects
 				(font
@@ -3479,7 +3502,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
-					(reference "#PWR019")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -3495,7 +3518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efd3fe1b-3bc6-469a-9d29-7b27a0a18599")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR026"
 			(at 106.68 58.42 0)
 			(effects
 				(font
@@ -3545,7 +3568,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e15448a1-9fe5-4d83-bce5-dd9a3d978182"
-					(reference "#PWR031")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)

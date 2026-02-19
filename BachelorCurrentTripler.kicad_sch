@@ -1172,7 +1172,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
 			(at 229.87 100.33 0)
 			(effects
 				(font
@@ -1260,7 +1260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
 			(at 241.3 100.33 0)
 			(effects
 				(font
@@ -1348,7 +1348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_THT:L_Axial_L11.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_MECC"
 			(at 229.87 80.01 0)
 			(effects
 				(font
@@ -1418,7 +1418,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
 			(at 252.73 100.33 0)
 			(effects
 				(font
@@ -1488,7 +1488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6101a782-9146-47e6-9195-72a8ac4c65b0")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR01"
 			(at 270.51 72.39 0)
 			(effects
 				(font
@@ -1538,7 +1538,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313"
-					(reference "#PWR034")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1554,7 +1554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad8bdf1a-e766-496a-a1cb-2b4996278bb5")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR02"
 			(at 269.24 119.38 0)
 			(effects
 				(font
@@ -1604,7 +1604,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313"
-					(reference "#PWR018")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1638,7 +1638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_THT:L_Axial_L11.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_MECC"
 			(at 241.3 80.01 0)
 			(effects
 				(font
@@ -1708,7 +1708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_THT:L_Axial_L11.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_MECC"
 			(at 252.73 80.01 0)
 			(effects
 				(font

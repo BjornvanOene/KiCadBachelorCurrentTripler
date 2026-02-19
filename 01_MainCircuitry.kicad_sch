@@ -1889,13 +1889,13 @@
 		(lib_id "Device:Q_NMOS")
 		(at 66.04 113.03 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ad46a64-cb19-4cd4-9ae7-f1a4796ea3c7")
-		(property "Reference" "Q4"
+		(property "Reference" "Q5"
 			(at 72.39 111.7599 0)
 			(effects
 				(font
@@ -1952,7 +1952,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e39cac19-8597-4e40-9e6f-88d9f4803cf9"
-					(reference "Q4")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -1962,13 +1962,13 @@
 		(lib_id "power:+48V")
 		(at 31.75 43.18 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ff482b5-4dcf-41ec-8f67-f8aafba2a4f0")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 31.75 46.99 0)
 			(effects
 				(font
@@ -2018,7 +2018,7 @@
 		(instances
 			(project ""
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e39cac19-8597-4e40-9e6f-88d9f4803cf9"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2028,13 +2028,13 @@
 		(lib_id "Device:L")
 		(at 127 91.44 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48193fd3-3e69-415b-95bb-8373dde07d9e")
-		(property "Reference" "LpB"
+		(property "Reference" "LpB1"
 			(at 127 86.36 90)
 			(effects
 				(font
@@ -2086,7 +2086,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e39cac19-8597-4e40-9e6f-88d9f4803cf9"
-					(reference "LpB")
+					(reference "LpB1")
 					(unit 1)
 				)
 			)
@@ -2096,13 +2096,13 @@
 		(lib_id "power:GND")
 		(at 35.56 132.08 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52e78e00-17cb-450d-861f-e165931366a4")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR04"
 			(at 35.56 138.43 0)
 			(effects
 				(font
@@ -2152,7 +2152,7 @@
 		(instances
 			(project ""
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e39cac19-8597-4e40-9e6f-88d9f4803cf9"
-					(reference "#PWR02")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2162,13 +2162,13 @@
 		(lib_id "Device:L")
 		(at 127 101.6 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "533fcc23-9125-49ca-87ee-4c1d68899c40")
-		(property "Reference" "LpC"
+		(property "Reference" "LpC1"
 			(at 127 96.52 90)
 			(effects
 				(font
@@ -2220,7 +2220,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e39cac19-8597-4e40-9e6f-88d9f4803cf9"
-					(reference "LpC")
+					(reference "LpC1")
 					(unit 1)
 				)
 			)
@@ -2230,13 +2230,13 @@
 		(lib_id "Device:Q_NMOS")
 		(at 95.25 71.12 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54087a48-f92d-472b-adc4-d3e925c77a93")
-		(property "Reference" "Q5"
+		(property "Reference" "Q3"
 			(at 101.6 69.8499 0)
 			(effects
 				(font
@@ -2293,7 +2293,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e39cac19-8597-4e40-9e6f-88d9f4803cf9"
-					(reference "Q5")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -2303,13 +2303,13 @@
 		(lib_id "Device:L")
 		(at 180.34 52.07 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57c739f1-55ff-4e02-a68a-7df82c00e8a5")
-		(property "Reference" "LsOutA"
+		(property "Reference" "LsOutA1"
 			(at 181.61 50.7999 0)
 			(effects
 				(font
@@ -2363,7 +2363,7 @@
 		(instances
 			(project ""
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e39cac19-8597-4e40-9e6f-88d9f4803cf9"
-					(reference "LsOutA")
+					(reference "LsOutA1")
 					(unit 1)
 				)
 			)
@@ -2373,13 +2373,13 @@
 		(lib_id "Device:L")
 		(at 162.56 90.17 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58d47a22-0f5a-41a9-af07-4c98d3fcef20")
-		(property "Reference" "LsB"
+		(property "Reference" "LsB1"
 			(at 163.83 88.8999 0)
 			(effects
 				(font
@@ -2433,7 +2433,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e39cac19-8597-4e40-9e6f-88d9f4803cf9"
-					(reference "LsB")
+					(reference "LsB1")
 					(unit 1)
 				)
 			)
@@ -2443,9 +2443,9 @@
 		(lib_id "Device:Q_NMOS")
 		(at 219.71 118.11 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61c96349-b718-41a3-a3b2-ad054881b800")
@@ -2516,9 +2516,9 @@
 		(lib_id "Device:Q_NMOS")
 		(at 95.25 113.03 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67ca2a2a-4915-433e-8327-812320c7973f")
@@ -2589,13 +2589,13 @@
 		(lib_id "Device:Q_NMOS")
 		(at 38.1 113.03 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d9f9a22-ff96-4cd3-b064-24bac802e02e")
-		(property "Reference" "Q2"
+		(property "Reference" "Q4"
 			(at 44.45 111.7599 0)
 			(effects
 				(font
@@ -2652,7 +2652,7 @@
 		(instances
 			(project ""
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e39cac19-8597-4e40-9e6f-88d9f4803cf9"
-					(reference "Q2")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -2662,9 +2662,9 @@
 		(lib_id "Device:Q_NMOS")
 		(at 199.39 118.11 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(uuid "85a77206-cc19-492f-b1e6-c97b0553e77f")
 		(property "Reference" "SR2"
@@ -2734,9 +2734,9 @@
 		(lib_id "Device:Q_NMOS")
 		(at 177.8 118.11 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86868450-a4b4-4755-b708-e699dba679ef")
@@ -2807,9 +2807,9 @@
 		(lib_id "Device:R")
 		(at 265.43 85.09 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8cc7bdf-ffb5-44be-aff5-5fcc1217b155")
@@ -2877,9 +2877,9 @@
 		(lib_id "Device:Q_NMOS")
 		(at 38.1 71.12 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c430c19a-9ed5-4bda-ae1e-bda583af67e0")
@@ -2950,13 +2950,13 @@
 		(lib_id "Device:L")
 		(at 148.59 90.17 180)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb4f6225-ba88-4cbf-9d6d-2273678c4c93")
-		(property "Reference" "LsC"
+		(property "Reference" "LsC1"
 			(at 149.86 88.8999 0)
 			(effects
 				(font
@@ -3010,7 +3010,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e39cac19-8597-4e40-9e6f-88d9f4803cf9"
-					(reference "LsC")
+					(reference "LsC1")
 					(unit 1)
 				)
 			)
@@ -3020,13 +3020,13 @@
 		(lib_id "Device:L")
 		(at 156.21 81.28 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7c47ade-636a-481c-ac38-ead779b2adae")
-		(property "Reference" "LsA"
+		(property "Reference" "LsA1"
 			(at 156.21 76.2 90)
 			(effects
 				(font
@@ -3078,7 +3078,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e39cac19-8597-4e40-9e6f-88d9f4803cf9"
-					(reference "LsA")
+					(reference "LsA1")
 					(unit 1)
 				)
 			)
@@ -3088,13 +3088,13 @@
 		(lib_id "Device:L")
 		(at 201.93 52.07 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da2ef47d-f46b-45bb-a838-2a5cebe051fc")
-		(property "Reference" "LsOutB"
+		(property "Reference" "LsOutB1"
 			(at 203.2 50.7999 0)
 			(effects
 				(font
@@ -3148,7 +3148,7 @@
 		(instances
 			(project ""
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e39cac19-8597-4e40-9e6f-88d9f4803cf9"
-					(reference "LsOutB")
+					(reference "LsOutB1")
 					(unit 1)
 				)
 			)
@@ -3158,13 +3158,13 @@
 		(lib_id "Device:Q_NMOS")
 		(at 66.04 71.12 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da5dfeae-fc45-46c7-a6d5-6b0189f45351")
-		(property "Reference" "Q3"
+		(property "Reference" "Q2"
 			(at 72.39 69.8499 0)
 			(effects
 				(font
@@ -3221,7 +3221,7 @@
 		(instances
 			(project ""
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e39cac19-8597-4e40-9e6f-88d9f4803cf9"
-					(reference "Q3")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -3231,9 +3231,9 @@
 		(lib_id "Device:C")
 		(at 240.03 85.09 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e97f57f8-4155-480a-87c1-b4e5b53140c9")
@@ -3301,13 +3301,13 @@
 		(lib_id "Device:L")
 		(at 222.25 52.07 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9fac9bf-15cb-4065-bbb3-cac56695aded")
-		(property "Reference" "LsOutC"
+		(property "Reference" "LsOutC1"
 			(at 223.52 50.7999 0)
 			(effects
 				(font
@@ -3361,7 +3361,7 @@
 		(instances
 			(project "BachelorCurrentTripler"
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e39cac19-8597-4e40-9e6f-88d9f4803cf9"
-					(reference "LsOutC")
+					(reference "LsOutC1")
 					(unit 1)
 				)
 			)
@@ -3371,13 +3371,13 @@
 		(lib_id "Device:L")
 		(at 127 81.28 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec40518e-7027-4bb5-a340-e48054fd5c91")
-		(property "Reference" "LpA"
+		(property "Reference" "LpA1"
 			(at 127 76.2 90)
 			(effects
 				(font
@@ -3429,7 +3429,7 @@
 		(instances
 			(project ""
 				(path "/eaeaab39-7712-4bb8-8f1a-3ddca096a313/e39cac19-8597-4e40-9e6f-88d9f4803cf9"
-					(reference "LpA")
+					(reference "LpA1")
 					(unit 1)
 				)
 			)
