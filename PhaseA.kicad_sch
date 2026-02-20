@@ -2260,7 +2260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 175.26 92.075 0)
 			(effects
 				(font
@@ -2402,7 +2402,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 175.26 71.755 0)
 			(effects
 				(font
@@ -2433,13 +2433,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "69fd39c7-c7c8-4eef-93ec-fdc82861e479")
+			(uuid "69fd39c7-c7c8-4eef-93ec-fdc82861e47a")
 		)
 		(pin "1"
-			(uuid "9de68c6d-72a4-4ecd-bdba-148d24696b46")
+			(uuid "9de68c6d-72a4-4ecd-bdba-148d24696b47")
 		)
 		(pin "3"
-			(uuid "9da5fad6-4f02-43c3-bc7f-e94785fbe4c8")
+			(uuid "9da5fad6-4f02-43c3-bc7f-e94785fbe4c9")
 		)
 		(instances
 			(project ""
