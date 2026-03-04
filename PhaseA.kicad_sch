@@ -1270,9 +1270,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Disse modstande skal være små, \nmåske 1-10 Ohm"
+	(text "Disse modstande skal være små, \nmåske 1-10 Ohm\n\n0805 størrelse\n\nsortimentskasser i mice ?"
 		(exclude_from_sim no)
-		(at 156.718 76.962 0)
+		(at 158.496 78.74 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -1944,6 +1944,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C507059"
+			(at 148.59 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "06239def-545b-4eac-894e-3d5b44bf7b52")
 		)
@@ -2006,6 +2015,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 181.61 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2843466 "
 			(at 181.61 55.88 0)
 			(effects
 				(font
@@ -2100,7 +2118,7 @@
 		(at 153.67 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "13a18499-706e-4584-ac0a-fae16a2fd1de")
@@ -2237,7 +2255,7 @@
 		(at 170.18 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2379,7 +2397,7 @@
 		(at 170.18 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2768,6 +2786,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C1021609"
+			(at 101.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c67d4816-9dba-4fbd-90ce-8e25616feaed")
 		)
@@ -2921,7 +2948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x7.7"
+		(property "Footprint" "easyeda:CAP-SMD_BD8.0-L8.3-W8.3-LS9.2-FD-H10.5"
 			(at 204.1652 59.69 0)
 			(effects
 				(font
@@ -2940,6 +2967,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 203.2 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C5456764"
 			(at 203.2 55.88 0)
 			(effects
 				(font
@@ -3035,7 +3071,7 @@
 		(at 148.59 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9f8e2413-f884-4f57-b3e5-c04d5356b433")
@@ -3102,7 +3138,7 @@
 		(at 148.59 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a0e014f1-9097-4be5-9e7d-f9cbc4e9a2fd")
@@ -3235,7 +3271,7 @@
 		(at 153.67 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b498fbb3-7817-4580-98e2-033ca6aa4b78")
@@ -3549,6 +3585,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C1021609"
+			(at 110.49 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1cc90445-28b1-4ff2-acbb-654a535814c9")
 		)
@@ -3583,7 +3628,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "47u"
 			(at 195.58 57.1499 0)
 			(effects
 				(font
@@ -3592,7 +3637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x7.7"
+		(property "Footprint" "easyeda:CAP-SMD_BD6.3-L6.6-W6.6-LS7.3-FD"
 			(at 192.7352 59.69 0)
 			(effects
 				(font
@@ -3611,6 +3656,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 191.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C7461235"
 			(at 191.77 55.88 0)
 			(effects
 				(font

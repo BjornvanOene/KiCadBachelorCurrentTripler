@@ -1834,7 +1834,7 @@
 		(at 167.64 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2109,7 +2109,7 @@
 		(at 146.05 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3377cfb4-65cc-4a53-9c7b-dfaad2351277")
@@ -2225,6 +2225,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C1021609 "
+			(at 93.98 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3beac2b2-9f24-410b-9096-63c39ba47604")
 		)
@@ -2287,6 +2296,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 146.05 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C507059"
 			(at 146.05 76.2 0)
 			(effects
 				(font
@@ -2381,7 +2399,7 @@
 		(at 146.05 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7d88993b-0a8f-4733-9474-4f01985af6c4")
@@ -2564,6 +2582,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C2843466"
+			(at 179.07 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ee1bf50-4d2e-4771-9a1f-d5467f98df00")
 		)
@@ -2694,7 +2721,7 @@
 		(at 167.64 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2920,7 +2947,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "47u"
 			(at 193.04 77.4699 0)
 			(effects
 				(font
@@ -2929,7 +2956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x7.7"
+		(property "Footprint" "easyeda:CAP-SMD_BD6.3-L6.6-W6.6-LS7.3-FD"
 			(at 190.1952 80.01 0)
 			(effects
 				(font
@@ -2948,6 +2975,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 189.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C7461235"
 			(at 189.23 76.2 0)
 			(effects
 				(font
@@ -2976,7 +3012,7 @@
 		(at 151.13 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "bfde09ed-43d8-400f-99f1-29dffd041a02")
@@ -3084,6 +3120,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 102.87 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1021609  "
 			(at 102.87 71.12 0)
 			(effects
 				(font
@@ -3310,7 +3355,7 @@
 		(at 151.13 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d5c8f183-4dcc-47cd-b25f-2fa56b2d10f3")
@@ -3400,7 +3445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x7.7"
+		(property "Footprint" "easyeda:CAP-SMD_BD8.0-L8.3-W8.3-LS9.2-FD-H10.5"
 			(at 201.6252 80.01 0)
 			(effects
 				(font
@@ -3419,6 +3464,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 200.66 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C5456764 "
 			(at 200.66 76.2 0)
 			(effects
 				(font
