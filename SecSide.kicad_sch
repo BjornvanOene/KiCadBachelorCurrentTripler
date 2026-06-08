@@ -4199,7 +4199,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FAN3268"
+		(property "Value" "FAN3223"
 			(at 120.2533 101.6 0)
 			(effects
 				(font
@@ -4218,7 +4218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/FAN3268T_F085-D.PDF"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fan3223-d.pdf"
 			(at 118.11 111.76 0)
 			(effects
 				(font
@@ -4227,7 +4227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Voltage 18V PMOS-NMOS Bridge Driver, SOIC-8"
+		(property "Description" ""
 			(at 118.11 114.3 0)
 			(effects
 				(font
@@ -4558,7 +4558,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FAN3268"
+		(property "Value" "FAN3223"
 			(at 61.8333 48.26 0)
 			(effects
 				(font
@@ -4577,7 +4577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/FAN3268T_F085-D.PDF"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fan3223-d.pdf"
 			(at 59.69 58.42 0)
 			(effects
 				(font
@@ -4586,7 +4586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Voltage 18V PMOS-NMOS Bridge Driver, SOIC-8"
+		(property "Description" ""
 			(at 59.69 60.96 0)
 			(effects
 				(font
@@ -5391,7 +5391,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLR8726EBF"
+		(property "Value" "IRLR8726PbF"
 			(at 122.428 75.692 0)
 			(effects
 				(font
@@ -5411,7 +5411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-irlr8726-datasheet-en.pdf?fileId=5546d462533600a40153567181dd26f7"
 			(at 146.05 74.93 0)
 			(effects
 				(font
@@ -5466,7 +5466,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLR8726EBF"
+		(property "Value" "IRLR8726PbF"
 			(at 139.446 117.856 0)
 			(effects
 				(font
@@ -5486,7 +5486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-irlr8726-datasheet-en.pdf?fileId=5546d462533600a40153567181dd26f7"
 			(at 186.69 113.03 0)
 			(effects
 				(font
@@ -5542,7 +5542,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FAN3268"
+		(property "Value" "FAN3223"
 			(at 88.5033 78.74 0)
 			(effects
 				(font
@@ -5561,7 +5561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/FAN3268T_F085-D.PDF"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fan3223-d.pdf"
 			(at 86.36 88.9 0)
 			(effects
 				(font
@@ -5570,7 +5570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Voltage 18V PMOS-NMOS Bridge Driver, SOIC-8"
+		(property "Description" ""
 			(at 86.36 91.44 0)
 			(effects
 				(font
@@ -5695,7 +5695,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLR8726EBF"
+		(property "Value" "IRLR8726PbF"
 			(at 129.032 100.584 0)
 			(effects
 				(font
@@ -5715,7 +5715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-irlr8726-datasheet-en.pdf?fileId=5546d462533600a40153567181dd26f7"
 			(at 165.1 97.79 0)
 			(effects
 				(font

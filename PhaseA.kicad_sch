@@ -2269,7 +2269,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C2M0025120D"
+		(property "Value" "FDD3672"
 			(at 176.53 91.4399 0)
 			(effects
 				(font
@@ -2289,7 +2289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.wolfspeed.com/media/downloads/161/C2M0025120D.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fdd3672-d.pdf"
 			(at 175.26 93.98 0)
 			(effects
 				(font
@@ -2299,7 +2299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "90A Id, 1200V Vds, 25mOhm, N-Channel SiC MOSFET, TO-247"
+		(property "Description" ""
 			(at 170.18 90.17 0)
 			(effects
 				(font
@@ -2411,7 +2411,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C2M0025120D"
+		(property "Value" "FDD3672"
 			(at 176.53 71.1199 0)
 			(effects
 				(font
@@ -2431,7 +2431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.wolfspeed.com/media/downloads/161/C2M0025120D.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fdd3672-d.pdf"
 			(at 175.26 73.66 0)
 			(effects
 				(font
@@ -2441,7 +2441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "90A Id, 1200V Vds, 25mOhm, N-Channel SiC MOSFET, TO-247"
+		(property "Description" ""
 			(at 170.18 69.85 0)
 			(effects
 				(font
